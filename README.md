@@ -1,6 +1,6 @@
 # Melhores Posts do Reddit
 
-Este projeto é um site que permite visualizar os melhores posts do Reddit e pesquisar por qualquer parâmetro. Ele utiliza React, Axios e dotenv para buscar e exibir os dados do Reddit.
+Este projeto é um site que permite visualizar os melhores posts do Reddit e pesquisar por qualquer tema desejado. Desenvolvido com React, utiliza Axios para buscar e exibir os dados do Reddit e Dotenv para segurança da chave API.
 
 ## Funcionalidades
 
