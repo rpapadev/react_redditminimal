@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Melhores Posts do Reddit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um site que permite visualizar os melhores posts do Reddit e pesquisar por qualquer parâmetro. Ele utiliza React, Axios e dotenv para buscar e exibir os dados do Reddit.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Visualize os melhores posts do Reddit
+- Pesquise por qualquer parâmetro
+- Exiba os resultados na sua tela
 
-### `npm start`
+## Como executar o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone o repositório em sua máquina local.
+2. Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+REACT_APP_REDDIT_API=https://www.reddit.com/
+REACT_APP_REDDIT_API_BEST=best.json
+REACT_APP_REDDIT_API_SEARCH=search.json
+```
 
-### `npm test`
+3. Execute `npm install` para instalar as dependências.
+4. Execute `npm start` para iniciar o servidor local.
+5. Acesse `http://localhost:3000` no seu navegador para visualizar o site.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como utilizar o site
 
-### `npm run build`
+1. Na página inicial, você verá os melhores posts do Reddit.
+2. Para pesquisar por qualquer parâmetro, clique na barra de pesquisa na parte superior da tela e digite o termo desejado.
+3. Os resultados da pesquisa serão exibidos abaixo da barra de pesquisa.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribuições
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Se você deseja contribuir para o projeto, sinta-se à vontade para enviar um pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Licença
 
-### `npm run eject`
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Agradecimentos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Obrigado por usar este projeto! Esperamos que você goste e ache útil.
