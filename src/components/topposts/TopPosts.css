@@ -1,0 +1,22 @@
+.posts {
+    justify-content: center;
+    background-color: white;
+    width: 40%;
+    margin: 30px 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.post-border {
+    border-bottom: 30px solid rgb(212, 205, 195);
+}
+
+.posts h2 {
+    font-size: 30px;
+}
+
+.posts img {
+    width: auto;
+    height: auto;
+    margin: 15px 0;
+}
